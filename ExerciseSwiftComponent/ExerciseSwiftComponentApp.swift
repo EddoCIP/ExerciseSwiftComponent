@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct ExerciseSwiftComponentApp: App {
+    @StateObject private var dataController = DataController()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //            inject core data context to environment
+//            ContentCoreData().environment(\.managedObjectContext, dataController.container.viewContext)
+//            SearchBarExample()
+//            CameraComponent()
+            IntegrateCameraView()
         }
     }
 }

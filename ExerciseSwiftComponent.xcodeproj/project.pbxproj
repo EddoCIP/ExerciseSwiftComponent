@@ -11,6 +11,16 @@
 		FD60DF84281B2A1C00BD9B04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD60DF83281B2A1C00BD9B04 /* ContentView.swift */; };
 		FD60DF86281B2A1D00BD9B04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD60DF85281B2A1D00BD9B04 /* Assets.xcassets */; };
 		FD60DF89281B2A1D00BD9B04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD60DF88281B2A1D00BD9B04 /* Preview Assets.xcassets */; };
+		FD60DF94281B2F0700BD9B04 /* Bookworm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD60DF92281B2F0700BD9B04 /* Bookworm.xcdatamodeld */; };
+		FD60DF96281B301C00BD9B04 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD60DF95281B301C00BD9B04 /* DataController.swift */; };
+		FD60DF98281B7F2B00BD9B04 /* ContentCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD60DF97281B7F2B00BD9B04 /* ContentCoreData.swift */; };
+		FD60DF9B281BCB5400BD9B04 /* SearchBarExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD60DF9A281BCB5400BD9B04 /* SearchBarExample.swift */; };
+		FD60DF9E281BD19400BD9B04 /* BubbleChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD60DF9D281BD19400BD9B04 /* BubbleChat.swift */; };
+		FDDA61D828202F8800829489 /* CameraComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA61D728202F8800829489 /* CameraComponent.swift */; };
+		FDDA61DA28202F9400829489 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA61D928202F9400829489 /* CameraView.swift */; };
+		FDDA61DD2820347D00829489 /* IntegrateCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA61DC2820347D00829489 /* IntegrateCameraView.swift */; };
+		FDDA61DF282034F300829489 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA61DE282034F300829489 /* ImagePicker.swift */; };
+		FDDA61E1282038AC00829489 /* PhotoCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA61E0282038AC00829489 /* PhotoCaptureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		FD60DF83281B2A1C00BD9B04 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FD60DF85281B2A1D00BD9B04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD60DF88281B2A1D00BD9B04 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FD60DF93281B2F0700BD9B04 /* Bookworm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookworm.xcdatamodel; sourceTree = "<group>"; };
+		FD60DF95281B301C00BD9B04 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		FD60DF97281B7F2B00BD9B04 /* ContentCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCoreData.swift; sourceTree = "<group>"; };
+		FD60DF9A281BCB5400BD9B04 /* SearchBarExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarExample.swift; sourceTree = "<group>"; };
+		FD60DF9D281BD19400BD9B04 /* BubbleChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleChat.swift; sourceTree = "<group>"; };
+		FDDA61D728202F8800829489 /* CameraComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraComponent.swift; sourceTree = "<group>"; };
+		FDDA61D928202F9400829489 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		FDDA61DC2820347D00829489 /* IntegrateCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrateCameraView.swift; sourceTree = "<group>"; };
+		FDDA61DE282034F300829489 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		FDDA61E0282038AC00829489 /* PhotoCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +71,11 @@
 		FD60DF80281B2A1C00BD9B04 /* ExerciseSwiftComponent */ = {
 			isa = PBXGroup;
 			children = (
+				FDDA61DB2820345900829489 /* IntegrateCamera */,
+				FDDA61D628202DA900829489 /* LightOpenCamera */,
+				FD60DF9C281BD17F00BD9B04 /* BubbleChat */,
+				FD60DF99281BCB3300BD9B04 /* SearchBar */,
+				FD60DF91281B2E9700BD9B04 /* CoreData */,
 				FD60DF81281B2A1C00BD9B04 /* ExerciseSwiftComponentApp.swift */,
 				FD60DF83281B2A1C00BD9B04 /* ContentView.swift */,
 				FD60DF85281B2A1D00BD9B04 /* Assets.xcassets */,
@@ -65,6 +90,51 @@
 				FD60DF88281B2A1D00BD9B04 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FD60DF91281B2E9700BD9B04 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				FD60DF92281B2F0700BD9B04 /* Bookworm.xcdatamodeld */,
+				FD60DF95281B301C00BD9B04 /* DataController.swift */,
+				FD60DF97281B7F2B00BD9B04 /* ContentCoreData.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		FD60DF99281BCB3300BD9B04 /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				FD60DF9A281BCB5400BD9B04 /* SearchBarExample.swift */,
+			);
+			path = SearchBar;
+			sourceTree = "<group>";
+		};
+		FD60DF9C281BD17F00BD9B04 /* BubbleChat */ = {
+			isa = PBXGroup;
+			children = (
+				FD60DF9D281BD19400BD9B04 /* BubbleChat.swift */,
+			);
+			path = BubbleChat;
+			sourceTree = "<group>";
+		};
+		FDDA61D628202DA900829489 /* LightOpenCamera */ = {
+			isa = PBXGroup;
+			children = (
+				FDDA61D728202F8800829489 /* CameraComponent.swift */,
+				FDDA61D928202F9400829489 /* CameraView.swift */,
+			);
+			path = LightOpenCamera;
+			sourceTree = "<group>";
+		};
+		FDDA61DB2820345900829489 /* IntegrateCamera */ = {
+			isa = PBXGroup;
+			children = (
+				FDDA61DC2820347D00829489 /* IntegrateCameraView.swift */,
+				FDDA61DE282034F300829489 /* ImagePicker.swift */,
+				FDDA61E0282038AC00829489 /* PhotoCaptureView.swift */,
+			);
+			path = IntegrateCamera;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +207,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD60DF98281B7F2B00BD9B04 /* ContentCoreData.swift in Sources */,
 				FD60DF84281B2A1C00BD9B04 /* ContentView.swift in Sources */,
+				FD60DF96281B301C00BD9B04 /* DataController.swift in Sources */,
+				FDDA61DA28202F9400829489 /* CameraView.swift in Sources */,
+				FD60DF94281B2F0700BD9B04 /* Bookworm.xcdatamodeld in Sources */,
+				FDDA61D828202F8800829489 /* CameraComponent.swift in Sources */,
+				FD60DF9B281BCB5400BD9B04 /* SearchBarExample.swift in Sources */,
+				FDDA61DF282034F300829489 /* ImagePicker.swift in Sources */,
+				FD60DF9E281BD19400BD9B04 /* BubbleChat.swift in Sources */,
 				FD60DF82281B2A1C00BD9B04 /* ExerciseSwiftComponentApp.swift in Sources */,
+				FDDA61E1282038AC00829489 /* PhotoCaptureView.swift in Sources */,
+				FDDA61DD2820347D00829489 /* IntegrateCameraView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +350,8 @@
 				DEVELOPMENT_TEAM = FANN368M5W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera is needed for taking pictures";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Access to Photo Library is needed for saving captured media.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +381,8 @@
 				DEVELOPMENT_TEAM = FANN368M5W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera is needed for taking pictures";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Access to Photo Library is needed for saving captured media.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +423,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FD60DF92281B2F0700BD9B04 /* Bookworm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FD60DF93281B2F0700BD9B04 /* Bookworm.xcdatamodel */,
+			);
+			currentVersion = FD60DF93281B2F0700BD9B04 /* Bookworm.xcdatamodel */;
+			path = Bookworm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FD60DF76281B2A1C00BD9B04 /* Project object */;
 }
