@@ -21,6 +21,8 @@
 		FDDA61DD2820347D00829489 /* IntegrateCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA61DC2820347D00829489 /* IntegrateCameraView.swift */; };
 		FDDA61DF282034F300829489 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA61DE282034F300829489 /* ImagePicker.swift */; };
 		FDDA61E1282038AC00829489 /* PhotoCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA61E0282038AC00829489 /* PhotoCaptureView.swift */; };
+		FDDA61E328216BFD00829489 /* TestingWithNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA61E228216BFD00829489 /* TestingWithNavigation.swift */; };
+		FDDA61E528217A4600829489 /* TestingWithVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA61E428217A4600829489 /* TestingWithVStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		FDDA61DC2820347D00829489 /* IntegrateCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrateCameraView.swift; sourceTree = "<group>"; };
 		FDDA61DE282034F300829489 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		FDDA61E0282038AC00829489 /* PhotoCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureView.swift; sourceTree = "<group>"; };
+		FDDA61E228216BFD00829489 /* TestingWithNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingWithNavigation.swift; sourceTree = "<group>"; };
+		FDDA61E428217A4600829489 /* TestingWithVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingWithVStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,8 @@
 				FDDA61DC2820347D00829489 /* IntegrateCameraView.swift */,
 				FDDA61DE282034F300829489 /* ImagePicker.swift */,
 				FDDA61E0282038AC00829489 /* PhotoCaptureView.swift */,
+				FDDA61E228216BFD00829489 /* TestingWithNavigation.swift */,
+				FDDA61E428217A4600829489 /* TestingWithVStack.swift */,
 			);
 			path = IntegrateCamera;
 			sourceTree = "<group>";
@@ -207,8 +213,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDDA61E528217A4600829489 /* TestingWithVStack.swift in Sources */,
 				FD60DF98281B7F2B00BD9B04 /* ContentCoreData.swift in Sources */,
 				FD60DF84281B2A1C00BD9B04 /* ContentView.swift in Sources */,
+				FDDA61E328216BFD00829489 /* TestingWithNavigation.swift in Sources */,
 				FD60DF96281B301C00BD9B04 /* DataController.swift in Sources */,
 				FDDA61DA28202F9400829489 /* CameraView.swift in Sources */,
 				FD60DF94281B2F0700BD9B04 /* Bookworm.xcdatamodeld in Sources */,

@@ -17,7 +17,9 @@ struct ExerciseSwiftComponentApp: App {
 //            ContentCoreData().environment(\.managedObjectContext, dataController.container.viewContext)
 //            SearchBarExample()
 //            CameraComponent()
-            IntegrateCameraView()
+//            IntegrateCameraView()
+//            TestingWithNavigation()
+            TestingWithVStack()
         }
     }
 }
