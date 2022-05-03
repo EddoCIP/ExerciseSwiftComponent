@@ -32,6 +32,7 @@ struct ImagePicker: UIViewControllerRepresentable {
     
     @Binding var isShown: Bool
     @Binding var image: Image?
+    var isPreview: Bool = false
     
     func updateUIViewController(_ uiViewController: UIImagePickerController, context: UIViewControllerRepresentableContext<ImagePicker>) {
         
@@ -44,7 +45,10 @@ struct ImagePicker: UIViewControllerRepresentable {
     func makeUIViewController(context: UIViewControllerRepresentableContext<ImagePicker>) -> UIImagePickerController {
         let picker = UIImagePickerController()
         picker.delegate = context.coordinator
-        picker.sourceType = .camera
+        // if preview, show gallery view instead of camera view
+        if !isPreview {
+            picker.sourceType = .camera
+        }
         return picker
     }
 }
