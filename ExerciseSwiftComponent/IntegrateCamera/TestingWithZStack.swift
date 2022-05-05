@@ -21,7 +21,7 @@ struct TestingWithZStack: View {
                         PhotoCaptureView(showImagePicker: self.$showImagePicker, image: self.$image, isPreview: self.isPreview)
                         Image(systemName: "square.and.arrow.up.fill")
                             .resizable()
-                            .frame(width: 300, height: 300)
+                            .frame(width: 100, height: 100)
                         // tinggal nyari cara biar bisa di pojok kiri bawah :D
                     }
                 }
