@@ -8,11 +8,12 @@
 import SwiftUI
 
 struct TestingWithNavigation: View {
+    @State private var showImagePicker: Bool = false
     @State var isShow : Bool = false
     @State var image: Image? = nil
     var body: some View {
         NavigationView {
-            NavigationLink(destination: PhotoCaptureView(showImagePicker: .constant(true), image: self.$image)) {
+            NavigationLink(destination: PhotoCaptureView(showImagePicker: self.$showImagePicker, image: self.$image)) {
                 Text("test")
             }
         }
@@ -21,6 +22,6 @@ struct TestingWithNavigation: View {
 
 struct TestingWithNavigation_Previews: PreviewProvider {
     static var previews: some View {
-        TestingWithNavigation()
+        TestingWithZStack(isPreview: true)
     }
 }

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD37D3112831FECD000F248E /* HalfSheetModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD37D3102831FECD000F248E /* HalfSheetModal.swift */; };
+		FD5FC1232832470B0044E6C6 /* BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5FC1222832470B0044E6C6 /* BottomSheet.swift */; };
+		FD5FC12728324FF10044E6C6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5FC12628324FF10044E6C6 /* HomeView.swift */; };
+		FD5FC1292832501B0044E6C6 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5FC1282832501B0044E6C6 /* MainScreenView.swift */; };
 		FD60DF82281B2A1C00BD9B04 /* ExerciseSwiftComponentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD60DF81281B2A1C00BD9B04 /* ExerciseSwiftComponentApp.swift */; };
 		FD60DF84281B2A1C00BD9B04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD60DF83281B2A1C00BD9B04 /* ContentView.swift */; };
 		FD60DF86281B2A1D00BD9B04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD60DF85281B2A1D00BD9B04 /* Assets.xcassets */; };
@@ -27,6 +31,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD37D3102831FECD000F248E /* HalfSheetModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfSheetModal.swift; sourceTree = "<group>"; };
+		FD5FC1222832470B0044E6C6 /* BottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheet.swift; sourceTree = "<group>"; };
+		FD5FC12628324FF10044E6C6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FD5FC1282832501B0044E6C6 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
 		FD60DF7E281B2A1C00BD9B04 /* ExerciseSwiftComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExerciseSwiftComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD60DF81281B2A1C00BD9B04 /* ExerciseSwiftComponentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSwiftComponentApp.swift; sourceTree = "<group>"; };
 		FD60DF83281B2A1C00BD9B04 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +66,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD37D30F2831FEB5000F248E /* HalfSheetModal */ = {
+			isa = PBXGroup;
+			children = (
+				FD37D3102831FECD000F248E /* HalfSheetModal.swift */,
+			);
+			path = HalfSheetModal;
+			sourceTree = "<group>";
+		};
+		FD5FC121283246F60044E6C6 /* BottomSheet */ = {
+			isa = PBXGroup;
+			children = (
+				FD5FC1222832470B0044E6C6 /* BottomSheet.swift */,
+				FD5FC12628324FF10044E6C6 /* HomeView.swift */,
+				FD5FC1282832501B0044E6C6 /* MainScreenView.swift */,
+			);
+			path = BottomSheet;
+			sourceTree = "<group>";
+		};
 		FD60DF75281B2A1C00BD9B04 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +103,8 @@
 		FD60DF80281B2A1C00BD9B04 /* ExerciseSwiftComponent */ = {
 			isa = PBXGroup;
 			children = (
+				FD5FC121283246F60044E6C6 /* BottomSheet */,
+				FD37D30F2831FEB5000F248E /* HalfSheetModal */,
 				FDDA61DB2820345900829489 /* IntegrateCamera */,
 				FDDA61D628202DA900829489 /* LightOpenCamera */,
 				FD60DF9C281BD17F00BD9B04 /* BubbleChat */,
@@ -216,6 +244,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD37D3112831FECD000F248E /* HalfSheetModal.swift in Sources */,
+				FD5FC1232832470B0044E6C6 /* BottomSheet.swift in Sources */,
+				FD5FC1292832501B0044E6C6 /* MainScreenView.swift in Sources */,
 				FDDA61E528217A4600829489 /* TestingWithVStack.swift in Sources */,
 				FDDA61E728217DAD00829489 /* TestingWithZStack.swift in Sources */,
 				FD60DF98281B7F2B00BD9B04 /* ContentCoreData.swift in Sources */,
@@ -223,6 +254,7 @@
 				FDDA61E328216BFD00829489 /* TestingWithNavigation.swift in Sources */,
 				FD60DF96281B301C00BD9B04 /* DataController.swift in Sources */,
 				FDDA61DA28202F9400829489 /* CameraView.swift in Sources */,
+				FD5FC12728324FF10044E6C6 /* HomeView.swift in Sources */,
 				FD60DF94281B2F0700BD9B04 /* Bookworm.xcdatamodeld in Sources */,
 				FDDA61D828202F8800829489 /* CameraComponent.swift in Sources */,
 				FD60DF9B281BCB5400BD9B04 /* SearchBarExample.swift in Sources */,

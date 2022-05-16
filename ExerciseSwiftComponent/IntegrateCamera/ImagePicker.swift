@@ -19,6 +19,7 @@ class ImagePickerCoordinator: NSObject, UINavigationControllerDelegate, UIImageP
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         let uiImage = info[UIImagePickerController.InfoKey.originalImage] as! UIImage
+        UIImageWriteToSavedPhotosAlbum(uiImage, nil, nil, nil)
         image = Image(uiImage: uiImage)
         isShown = false
     }

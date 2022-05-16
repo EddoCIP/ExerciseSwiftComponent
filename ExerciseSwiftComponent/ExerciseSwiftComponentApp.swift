@@ -18,9 +18,9 @@ struct ExerciseSwiftComponentApp: App {
 //            SearchBarExample()
 //            CameraComponent()
 //            IntegrateCameraView()
-//            TestingWithNavigation()
+            TestingWithNavigation()
 //            TestingWithVStack()
-            TestingWithZStack()
+//            TestingWithZStack()
         }
     }
 }
